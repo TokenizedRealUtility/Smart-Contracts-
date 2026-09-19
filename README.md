@@ -249,8 +249,6 @@ First prove the locked output exists on-chain. Then test maturity.
 
 # 🔑 2. HASH LOCK
 
-## ELI5
-
 A Hash Lock is a safe that opens with a secret.
 
 You do **not** put the secret itself in the lock.
@@ -327,8 +325,6 @@ Once a preimage is published in a successful claim transaction, assume it is pub
 
 # 🌐 3. ORACLE LOCK
 
-## ELI5
-
 An Oracle Lock is a contract that asks:
 
 > “Does the trusted data source say the required thing happened?”
@@ -389,8 +385,6 @@ The contract must use the data path recognized by the protocol.
 ---
 
 # 🗂 4. STATEFUL KEY / VALUE
-
-## ELI5
 
 Stateful Key/Value is like a tiny on-chain notebook.
 
@@ -502,8 +496,6 @@ A stale old state should not become a second valid current state.
 
 # 🗳 5. VOTING
 
-## ELI5
-
 Voting is a stateful contract that keeps a poll on-chain.
 
 ```text
@@ -568,8 +560,6 @@ Because Voting is stateful, the Stable Root stays the same while the current liv
 ---
 
 # 🏭 6. TOKEN ISSUER
-
-## ELI5
 
 A Token Issuer is a vending machine on-chain.
 
@@ -668,8 +658,6 @@ So always read the confirmation screen carefully before creating an issuer.
 ---
 
 # 👥 7. MULTISIG / ESCROW — 2 OF 3
-
-## ELI5
 
 Multisig is a safe with three keys where **any two keys are required**.
 
@@ -784,8 +772,6 @@ Never share the private key itself.
 ---
 
 # ⚛️ 8. HTLC / ATOMIC SWAP
-
-## ELI5
 
 HTLC stands for:
 
@@ -918,8 +904,6 @@ The broader TRU swap system can use HTLCs to coordinate two-chain swaps while th
 
 # 📝 9. OP_RETURN
 
-## ELI5
-
 OP_RETURN is a permanent note attached to the blockchain.
 
 ```text
@@ -977,8 +961,6 @@ into OP_RETURN.
 
 # 🧩 10. CUSTOM SCRIPT
 
-## ELI5
-
 Custom Script is the advanced lane.
 
 Instead of choosing a named contract like Time Lock or Voting, a developer can use a script that matches TRU's approved structural policy.
@@ -1027,8 +1009,6 @@ TRU's relay policy uses structural recognition rather than simply trusting a lab
 ---
 
 # ✨ 11. MAGICLOCK
-
-## ELI5
 
 MagicLock is a specialized TRU script facility with its own lock/unlock path.
 
