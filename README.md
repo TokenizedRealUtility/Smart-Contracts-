@@ -169,7 +169,6 @@ The Contract Registry lets you:
 
 # 🔐 1. TIME LOCK
 
-## ELI5
 
 A Time Lock is a safe with a clock on it.
 
